@@ -14,6 +14,7 @@ Nginx 反代文件如下所示:
 server {
     listen 80;
     server_name www.example.com;
+    client_max_body_size 16M;
 
     location / {
         proxy_pass http://127.0.0.1:8000/;
