@@ -8,6 +8,7 @@ COPY web/ /opt/web/
 RUN apk add --no-cache --update python3 $BUILD_DEP \
     && pip3 install -U pip \
     && pip3 install -r /opt/web/requirments.txt \
+    && chmod +x /opt/web/run.py \
     && apk del $BUILD_DEP \
     && rm -rf /var/cache/apk/* \
     && rm -rf /root/.cache/pip/*
