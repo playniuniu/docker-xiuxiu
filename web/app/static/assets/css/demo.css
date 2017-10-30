@@ -4,18 +4,18 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 
-.demos-img {
+.demo-img {
     padding: 5px 15px;
 }
 
-.demos-img img {
+.demo-img img {
     width: 100%;
     height: auto;
     max-width: 100%;
     display: block;
 }
 
-.demos-title {
+.demo-title {
     text-align: center;
     font-size: 34px;
     color: #3cc51f;
@@ -23,35 +23,18 @@ html {
     margin: 0 15%;
 }
 
-.demos-sub-title {
-    text-align: center;
-    color: #888;
-    font-size: 14px;
-}
-
-.demos-header {
+.demo-header {
     padding: 35px 0;
 }
 
-.demos-content-padded {
-    padding: 15px;
-}
-
-.demos-second-title {
-    text-align: center;
-    font-size: 24px;
-    color: #3cc51f;
-    font-weight: 400;
-    margin: 0 15%;
+.demo-upload-img img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    display: block;
+    margin: 20px auto;
 }
 
 footer {
-    text-align: center;
-    font-size: 14px;
-    padding: 20px;
-}
-
-footer a {
-    color: #999;
-    text-decoration: none;
+    margin: 25px 0;
 }

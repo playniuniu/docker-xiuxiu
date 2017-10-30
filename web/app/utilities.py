@@ -27,4 +27,4 @@ def save_photo_file(request):
                                  "static/upload/", file_name)
         photo.save(file_path)
         print("Save photo in {}".format(file_path))
-        return file_path
+        return file_name

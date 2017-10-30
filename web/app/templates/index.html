@@ -13,17 +13,16 @@
 </head>
 
 <body ontouchstart>
-    <header class='demos-header'>
-        <h1 class="demos-title">秀秀的网页</h1>
+    <header class='demo-header'>
+        <h1 class="demo-title">秀秀的网页</h1>
     </header>
 
     <div class="weui-cells__title">功能介绍</div>
-    <div class="demos-img">
+    <div class="demo-img">
         <img src="/assets/img/demo.jpg" alt="介绍">
     </div>
 
-    <form action="{{ url_for('main.router_question_post') }}" method="POST"  
-          enctype="multipart/form-data" id="demo-form">
+    <form action="{{ url_for('main.router_question_post') }}" method="POST" enctype="multipart/form-data" id="demo-form">
         <div class="weui-cells weui-cells_form">
             <div class="weui-cell">
                 <div class="weui-cell__bd">
@@ -121,6 +120,15 @@
             <button class="weui-btn weui-btn_primary" id="submit-btn">提交</button>
         </div>
     </form>
+
+    <footer>
+        <div class="weui-footer">
+            <p class="weui-footer__links">
+                <a href="https://xiuxiu.uunus.com" class="weui-footer__link">Powered by xiuxiu</a>
+            </p>
+            <p class="weui-footer__text">Copyright © 2016-2017 xiuxiu</p>
+        </div>
+    </footer>
 
     <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
